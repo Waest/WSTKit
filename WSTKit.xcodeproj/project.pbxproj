@@ -13,6 +13,10 @@
 		0D0204A416036CF300393BEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D0204A216036CF300393BEA /* InfoPlist.strings */; };
 		0D0204A616036CF300393BEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0204A516036CF300393BEA /* main.m */; };
 		0D0204AA16036CF300393BEA /* WSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0204A916036CF300393BEA /* WSTAppDelegate.m */; };
+		0D0204D816036EB000393BEA /* UIApplication+StatusBarNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0204D516036EB000393BEA /* UIApplication+StatusBarNotifications.m */; };
+		0D0204D916036EB000393BEA /* WSSlidingViewControllerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0204D716036EB000393BEA /* WSSlidingViewControllerHandler.m */; };
+		0D0204E21603700400393BEA /* WSTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0204DF1603700400393BEA /* WSTopViewController.m */; };
+		0D0204E31603700400393BEA /* WSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0204E11603700400393BEA /* WSMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,15 @@
 		0D0204A716036CF300393BEA /* WSTKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WSTKit-Prefix.pch"; sourceTree = "<group>"; };
 		0D0204A816036CF300393BEA /* WSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSTAppDelegate.h; sourceTree = "<group>"; };
 		0D0204A916036CF300393BEA /* WSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSTAppDelegate.m; sourceTree = "<group>"; };
+		0D0204D416036EB000393BEA /* UIApplication+StatusBarNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StatusBarNotifications.h"; path = "WSTKit/UIApplication+StatusBarNotifications.h"; sourceTree = "<group>"; };
+		0D0204D516036EB000393BEA /* UIApplication+StatusBarNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StatusBarNotifications.m"; path = "WSTKit/UIApplication+StatusBarNotifications.m"; sourceTree = "<group>"; };
+		0D0204D616036EB000393BEA /* WSSlidingViewControllerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSSlidingViewControllerHandler.h; path = WSTKit/WSSlidingViewControllerHandler.h; sourceTree = "<group>"; };
+		0D0204D716036EB000393BEA /* WSSlidingViewControllerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSlidingViewControllerHandler.m; path = WSTKit/WSSlidingViewControllerHandler.m; sourceTree = "<group>"; };
+		0D0204DB16036F9900393BEA /* WSTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSTKit.h; path = WSTKit/WSTKit.h; sourceTree = "<group>"; };
+		0D0204DE1603700400393BEA /* WSTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSTopViewController.h; path = Demos/WSTopViewController.h; sourceTree = "<group>"; };
+		0D0204DF1603700400393BEA /* WSTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSTopViewController.m; path = Demos/WSTopViewController.m; sourceTree = "<group>"; };
+		0D0204E01603700400393BEA /* WSMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSMenuViewController.h; path = Demos/WSMenuViewController.h; sourceTree = "<group>"; };
+		0D0204E11603700400393BEA /* WSMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSMenuViewController.m; path = Demos/WSMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +85,8 @@
 		0D02049F16036CF300393BEA /* WSTKit */ = {
 			isa = PBXGroup;
 			children = (
+				0D0204DD16036FE600393BEA /* Demos */,
+				0D0204B016036CFD00393BEA /* WSTKit */,
 				0D0204A816036CF300393BEA /* WSTAppDelegate.h */,
 				0D0204A916036CF300393BEA /* WSTAppDelegate.m */,
 				0D0204A016036CF300393BEA /* Supporting Files */,
@@ -88,6 +103,29 @@
 				0D0204A716036CF300393BEA /* WSTKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D0204B016036CFD00393BEA /* WSTKit */ = {
+			isa = PBXGroup;
+			children = (
+				0D0204D416036EB000393BEA /* UIApplication+StatusBarNotifications.h */,
+				0D0204D516036EB000393BEA /* UIApplication+StatusBarNotifications.m */,
+				0D0204D616036EB000393BEA /* WSSlidingViewControllerHandler.h */,
+				0D0204D716036EB000393BEA /* WSSlidingViewControllerHandler.m */,
+				0D0204DB16036F9900393BEA /* WSTKit.h */,
+			);
+			name = WSTKit;
+			sourceTree = "<group>";
+		};
+		0D0204DD16036FE600393BEA /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				0D0204DE1603700400393BEA /* WSTopViewController.h */,
+				0D0204DF1603700400393BEA /* WSTopViewController.m */,
+				0D0204E01603700400393BEA /* WSMenuViewController.h */,
+				0D0204E11603700400393BEA /* WSMenuViewController.m */,
+			);
+			name = Demos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +193,10 @@
 			files = (
 				0D0204A616036CF300393BEA /* main.m in Sources */,
 				0D0204AA16036CF300393BEA /* WSTAppDelegate.m in Sources */,
+				0D0204D816036EB000393BEA /* UIApplication+StatusBarNotifications.m in Sources */,
+				0D0204D916036EB000393BEA /* WSSlidingViewControllerHandler.m in Sources */,
+				0D0204E21603700400393BEA /* WSTopViewController.m in Sources */,
+				0D0204E31603700400393BEA /* WSMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
