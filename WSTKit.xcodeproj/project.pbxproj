@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D02049A16036CF300393BEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D02049916036CF300393BEA /* UIKit.framework */; };
+		0D02049C16036CF300393BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D02049B16036CF300393BEA /* Foundation.framework */; };
+		0D02049E16036CF300393BEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D02049D16036CF300393BEA /* CoreGraphics.framework */; };
+		0D0204A416036CF300393BEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D0204A216036CF300393BEA /* InfoPlist.strings */; };
+		0D0204A616036CF300393BEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0204A516036CF300393BEA /* main.m */; };
+		0D0204AA16036CF300393BEA /* WSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0204A916036CF300393BEA /* WSTAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D02049516036CF300393BEA /* WSTKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSTKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D02049916036CF300393BEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D02049B16036CF300393BEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D02049D16036CF300393BEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D0204A116036CF300393BEA /* WSTKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WSTKit-Info.plist"; sourceTree = "<group>"; };
+		0D0204A316036CF300393BEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D0204A516036CF300393BEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D0204A716036CF300393BEA /* WSTKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WSTKit-Prefix.pch"; sourceTree = "<group>"; };
+		0D0204A816036CF300393BEA /* WSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSTAppDelegate.h; sourceTree = "<group>"; };
+		0D0204A916036CF300393BEA /* WSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSTAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D02049216036CF300393BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D02049A16036CF300393BEA /* UIKit.framework in Frameworks */,
+				0D02049C16036CF300393BEA /* Foundation.framework in Frameworks */,
+				0D02049E16036CF300393BEA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D02048A16036CF300393BEA = {
+			isa = PBXGroup;
+			children = (
+				0D02049F16036CF300393BEA /* WSTKit */,
+				0D02049816036CF300393BEA /* Frameworks */,
+				0D02049616036CF300393BEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D02049616036CF300393BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D02049516036CF300393BEA /* WSTKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D02049816036CF300393BEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D02049916036CF300393BEA /* UIKit.framework */,
+				0D02049B16036CF300393BEA /* Foundation.framework */,
+				0D02049D16036CF300393BEA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D02049F16036CF300393BEA /* WSTKit */ = {
+			isa = PBXGroup;
+			children = (
+				0D0204A816036CF300393BEA /* WSTAppDelegate.h */,
+				0D0204A916036CF300393BEA /* WSTAppDelegate.m */,
+				0D0204A016036CF300393BEA /* Supporting Files */,
+			);
+			path = WSTKit;
+			sourceTree = "<group>";
+		};
+		0D0204A016036CF300393BEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D0204A116036CF300393BEA /* WSTKit-Info.plist */,
+				0D0204A216036CF300393BEA /* InfoPlist.strings */,
+				0D0204A516036CF300393BEA /* main.m */,
+				0D0204A716036CF300393BEA /* WSTKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D02049416036CF300393BEA /* WSTKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0204AD16036CF300393BEA /* Build configuration list for PBXNativeTarget "WSTKit" */;
+			buildPhases = (
+				0D02049116036CF300393BEA /* Sources */,
+				0D02049216036CF300393BEA /* Frameworks */,
+				0D02049316036CF300393BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSTKit;
+			productName = WSTKit;
+			productReference = 0D02049516036CF300393BEA /* WSTKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D02048C16036CF300393BEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WST;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Aurélien AMILIN";
+			};
+			buildConfigurationList = 0D02048F16036CF300393BEA /* Build configuration list for PBXProject "WSTKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D02048A16036CF300393BEA;
+			productRefGroup = 0D02049616036CF300393BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D02049416036CF300393BEA /* WSTKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D02049316036CF300393BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0204A416036CF300393BEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D02049116036CF300393BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0204A616036CF300393BEA /* main.m in Sources */,
+				0D0204AA16036CF300393BEA /* WSTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D0204A216036CF300393BEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D0204A316036CF300393BEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D0204AB16036CF300393BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D0204AC16036CF300393BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D0204AE16036CF300393BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSTKit/WSTKit-Prefix.pch";
+				INFOPLIST_FILE = "WSTKit/WSTKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D0204AF16036CF300393BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSTKit/WSTKit-Prefix.pch";
+				INFOPLIST_FILE = "WSTKit/WSTKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D02048F16036CF300393BEA /* Build configuration list for PBXProject "WSTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0204AB16036CF300393BEA /* Debug */,
+				0D0204AC16036CF300393BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D0204AD16036CF300393BEA /* Build configuration list for PBXNativeTarget "WSTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0204AE16036CF300393BEA /* Debug */,
+				0D0204AF16036CF300393BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D02048C16036CF300393BEA /* Project object */;
+}
